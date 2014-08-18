@@ -22,3 +22,11 @@ Run the file
 chmod 755 ./linux_rails_server_setup.sh
 ./linux_rails_server_setup.sh
 ```
+
+To use the latest ruby version, you'll need to manually set the version that rvm installed
+
+```bash
+source ~/.profile
+rvm list
+rvm use [version] --default
+```
