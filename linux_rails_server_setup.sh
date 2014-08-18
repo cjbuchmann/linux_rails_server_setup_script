@@ -22,6 +22,7 @@ sudo apt-get install -y rubygems-integration
 
 # gems
 sudo gem install bundler
+gem install rails
 
 # database related
 sudo apt-get install -y mysql-server libmysqlclient-dev
